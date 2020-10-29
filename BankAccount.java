@@ -28,7 +28,6 @@ public class BankAccount{
       balance+= amount;
       return true;
     }
-
   }
 
   public boolean withdraw(double amount){
@@ -48,5 +47,4 @@ public class BankAccount{
    public void setPassword(String newPass){
      password= newPass;
    }
-
 }
