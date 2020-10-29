@@ -7,9 +7,15 @@ public class Tester{
 
      System.out.println (mine.getBalance());
 
+     mine.deposit (-100.00);
+
+     System.out.println (mine.getBalance());
+
      mine.deposit(1234.69);
 
      System.out.println (mine.getBalance());
+
+     mine.withdraw (-100.00);
 
      mine.withdraw (100.00);
 
@@ -22,5 +28,7 @@ public class Tester{
      mine.setPassword("greenbluepurple");
 
      System.out.println (mine.getpassword());
-  }
+
+
+   }
 }
